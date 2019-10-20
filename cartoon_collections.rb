@@ -4,6 +4,7 @@ def roll_call_dwarves(array)
   array.length 
   array.each do |name,index|
     puts #{index}, #{name}
+    count += 1
 end
 array
 end
