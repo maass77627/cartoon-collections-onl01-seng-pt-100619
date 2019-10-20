@@ -20,7 +20,7 @@ end
 
 def find_the_cheese(snacks)
   cheeses = ["cheddar", "gouda", "camembert"]
-  cheeses.each_with_index do |snack, index|
-    cheeses.include?(snack) 
+  snacks.each_with_index do |snack, index|
+    return snacks[index] if cheeses.include?(snack)
 
 end
