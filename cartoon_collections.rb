@@ -1,4 +1,7 @@
 def roll_call_dwarves(array)
+  count = 0
+  while count < 
+  array.length 
   array.each do |name,index|
     puts #{index}, #{name}
 end
