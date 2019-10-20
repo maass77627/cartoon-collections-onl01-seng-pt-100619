@@ -7,7 +7,8 @@ end
 
 def summon_captain_planet(planeteer_calls)
    planeteer_calls.each_with_index do |call, index|
-    planeteer_calls[index] = 
+    planeteer_calls[index] = call.capitalize << "!"
+end
 end
 
 def long_planeteer_calls# code an argument here
