@@ -2,7 +2,7 @@ def roll_call_dwarves(array)
   array.each do |name|
     puts name
 end
-array
+roll_call_dwarves(array)
 end
 
 
