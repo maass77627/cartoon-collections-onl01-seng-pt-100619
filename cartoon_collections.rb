@@ -2,9 +2,9 @@ def roll_call_dwarves(array)
   array.each do |name|
     puts name
 end
-roll_call_dwarves(array)
 end
 
+roll_call_dwarves(["Doc", "Dopey"])
 
 def summon_captain_planet# code an argument here
   # Your code here
