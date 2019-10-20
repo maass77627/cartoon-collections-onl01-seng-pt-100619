@@ -2,7 +2,6 @@ def roll_call_dwarves(array)
   array.each_with_index do |name,index|
     puts index. name
 end
-roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
 end
 
 
